@@ -15,10 +15,11 @@ class Fibonacci_Series {
         
         	if(i == 1) {
            		
-           		continue;
+				continue;
         	}
         	if(i == 2) {
-         		System.out.print(t2+", ");
+         		
+				System.out.print(t2+", ");
            		continue;
         	}
        
@@ -27,6 +28,8 @@ class Fibonacci_Series {
         	t2 = nextTerm;
         
         	System.out.print(nextTerm+", ");
+			
+			read.close();
     	}
 	}
 }

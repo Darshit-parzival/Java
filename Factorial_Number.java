@@ -17,5 +17,6 @@ class Factorial_Number {
 		}
 
 		System.out.print("\n\n"+n+"'s Factorial is "+mul);
+		read.close();
 	}
 }

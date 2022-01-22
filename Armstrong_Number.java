@@ -22,5 +22,7 @@ class Armstrong_Number {
 				System.out.println("\n\n"+tmp+" Number is Armstrong");
 		else
 				System.out.println("\n\n"+tmp+" Number is not Armstrong");
+		
+		read.close();
 	}
 }

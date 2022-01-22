@@ -41,5 +41,7 @@ class Swap {
 		swap=swap*10+firstDigit;
 
 		System.out.println("After swap:"+swap);
+
+		read.close();
 	}
 }
